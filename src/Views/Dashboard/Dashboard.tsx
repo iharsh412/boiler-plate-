@@ -1,6 +1,7 @@
 import { useGetProductsQuery } from '../../Services/Api/module/imageApi/index.ts';
 import Images from '../../Components/Layouts/images/CarImages.tsx';
 import './homeImageSection.css';
+
 interface Product {
   id: number;
   imageUrl: string;

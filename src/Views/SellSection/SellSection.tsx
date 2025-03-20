@@ -1,4 +1,5 @@
-import "./sellSection.css"
+import './sellSection.css';
+
 export default function App() {
   return (
     <div className="sellSection">

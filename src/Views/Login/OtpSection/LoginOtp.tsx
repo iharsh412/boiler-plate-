@@ -1,8 +1,8 @@
-import "./loginOtp.css"
+import './loginOtp.css';
 import { useLocation } from 'react-router-dom';
 // eslint-disable-next-line import/extensions, import/no-self-import
 import OtpBox from './LoginOtpBox.tsx';
-import ICONS from "../../../assets/index.ts";
+import ICONS from '../../../assets/index.ts';
 
 export default function App() {
   const { state } = useLocation();

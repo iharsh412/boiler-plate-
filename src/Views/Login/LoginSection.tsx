@@ -1,10 +1,9 @@
 import './loginSection.css';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import { getAuth, onAuthStateChanged, User } from 'firebase/auth';
 import ImageSection from './LoginImage.tsx';
 import { signInWithGoogle, logout } from '../../firebase.ts';
-import { Link } from 'react-router-dom';
 import ICONS from '../../assets';
 
 export default function LoginPage() {
