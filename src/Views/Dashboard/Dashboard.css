@@ -1,0 +1,15 @@
+/* home image section */
+.homeImageSectionWraper{
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    /* background-color: rgb(168, 123, 123); */
+}
+.homeImageSection{
+    display: flex;
+    /* background-color: yellow; */
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    
+}

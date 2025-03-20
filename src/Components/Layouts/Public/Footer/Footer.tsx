@@ -1,5 +1,5 @@
-export function Footer() {
-  return <footer className="position-relative footer">Footer</footer>;
-}
+import './footer.css';
 
-export default Footer;
+export default function Footer() {
+  return <div className="footer">hello</div>;
+}
